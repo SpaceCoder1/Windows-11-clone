@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url(Image/bg.jpeg);
+  background-size: cover;
+  height: 100vh;
+}
+.taskbar {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  justify-content: center;
+  display: flex;
+  background-color: #2f2123;
+  height: 45px;
+}
+.time {
+  position: absolute;
+  justify-self: end;
+  right: 0;
+  height: 45px;
+}
+.menuView {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+}
+.edgeView {
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: center;
+  opacity: 0;
+}
+.timeView{
+    position: absolute;
+  bottom: 50px;
+  width: 100%;
+  text-align: right;
+  opacity: 0;
+}
+.fileView{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+.searchView{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+.vsView{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    text-align: center;
+    opacity: 0;
+}
+/* menu */
+.menuView img {
+  height: 550px;
+  border-radius: 8px;
+}
+.menu {
+  padding: 8px;
+}
+/* edge */
+.edge {
+  padding: 8px;
+}
+.edge2{
+    height: 45px;
+}
+.edgeView img {
+  height: 550px;
+  border-radius: 8px;
+}
+/* time */
+.timeView img {
+    height: 480px;
+    border-radius: 8px;
+}
+.file{
+    padding: 8px;
+}
+.fileView img{
+    height: 550px;
+    border-radius: 8px;
+}
+.search{
+    padding: 6px;
+}
+.searchView img{
+    height: 550px;
+    border-radius: 8px;
+}
+.vs{
+    padding: 8px 1px 0px;
+}
+.vsView img{
+    height: 550px;
+    border-radius: 8px;
+}
